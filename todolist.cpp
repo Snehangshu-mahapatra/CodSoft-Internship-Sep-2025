@@ -61,9 +61,7 @@ int main() {
     vector<Task> tasks;
     int choice;
 
-    cout << "===================================\n";
     cout << " Create to Your To-Do List\n";
-    cout << "===================================\n";
 
     do {
         cout << "\nChoose an option:\n";
@@ -87,3 +85,4 @@ int main() {
 
     return 0;
 }
+
