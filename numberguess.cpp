@@ -9,10 +9,8 @@ int main() {
     srand(static_cast<unsigned int>(time(nullptr)));
     char playAgain = 'Y';
 
-    cout << "=====================================\n";
     cout << "   Welcome, to the Guess Game!\n";
     cout << "   Let's guess between (1-100). \n";
-    cout << "=====================================\n\n";
 
     while (toupper(playAgain) == 'Y') {
         int secretNumber = rand() % 100 + 1;
@@ -47,3 +45,4 @@ int main() {
     cout << "Thanks for playing. See you next time.\n";
     return 0;
 }
+
